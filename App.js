@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { StyleSheet, Text, View, TextInput, Button, FlatList, TouchableOpacity } from 'react-native';
+import { Alert, StyleSheet, Text, View, TextInput, Button, FlatList, TouchableOpacity } from 'react-native';
 
 export default function App() {
   const [task, setTask] = useState(''); // State to hold the current task input
@@ -23,7 +23,9 @@ export default function App() {
 
   const deleteTask = (id) => {
     // Deletes a task by filtering out the task with the matching ID
+    const taskToDelete = tasks.find(task => task.id === id);
     setTasks(tasks.filter(task => task.id !== id));
+    Alert.alert("Task Deleted", `"${taskToDelete.text}" was removed from your list.`);
   };
   
   // Component to render each individual task item
