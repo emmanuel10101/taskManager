@@ -3,7 +3,7 @@ import { StyleSheet, Text, View, TextInput, Button, FlatList, TouchableOpacity }
 
 export default function App() {
   const [task, setTask] = useState(''); // State to hold the current task input
-  const [tasks, setTasks] = useState([]); // State to hold rray of all tasks
+  const [tasks, setTasks] = useState([]); // State to hold array of all tasks
 
   const addTask = () => {
     // Makes sure the task is not empty before adding,
