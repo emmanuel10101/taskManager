@@ -1,4 +1,3 @@
-# taskManager
 # 📋 Task Manager – React Native To-Do App
 
 This is a simple React Native to-do list app built with **Expo**. It allows users to:
