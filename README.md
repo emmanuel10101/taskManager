@@ -2,14 +2,14 @@
 
 This is a simple React Native to-do list app built with **Expo**. It allows users to:
 
-- ✅ Add new tasks
-- ✅ Mark tasks as complete with a custom checkbox
-- ❌ Delete tasks
-- 📋 View all tasks in a clean, scrollable list
+- Add new tasks
+- Mark tasks as complete with a custom checkbox
+- Delete tasks
+- View all tasks in a clean, scrollable list
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Add Task**: Type a task in the input field and press `Add`
 - **Mark Complete**: Tap the checkbox to mark tasks as done
