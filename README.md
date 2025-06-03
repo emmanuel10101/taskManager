@@ -33,8 +33,13 @@ This is a simple React Native to-do list app built with **Expo**. It allows user
 ```bash
 git clone git@github.com:emmanuel10101/taskManager.git
 cd taskManager
-2. Install dependencies
+```
+### 2. Install dependencies
+```
 npm install
-3. Run the app (with Expo)
+```
+### 3. Run the app (with Expo)
+```
 npx expo start
+```
 Scan the QR code with the Expo Go app on your phone to view the app.
