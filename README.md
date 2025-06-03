@@ -22,7 +22,7 @@ This is a simple React Native task manager app built with **Expo**. It allows us
 
 ### 1. Clone the repo
 ```
-git clone git@github.com:emmanuel10101/taskManager.git
+git clone https://github.com/emmanuel10101/taskManager
 cd taskManager
 ```
 ### 2. Install dependencies
